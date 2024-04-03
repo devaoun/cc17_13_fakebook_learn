@@ -566,6 +566,7 @@ hr {
     flex-direction: column;
     align-items: center;
     box-shadow: 0px 1px 5px 0px rgba(161, 161, 161, 0.5);
+    padding-block: 4px;
 }
 
 .user-profile {
@@ -574,7 +575,7 @@ hr {
     align-items: center;
     justify-content: space-between;
     gap: 8px;
-    padding: 5px 10px 2px 10px;
+    padding: 1px 10px 2px 10px;
 }
 
 .user-profile .profile-img {
@@ -738,6 +739,7 @@ hr {
 
 .post-action hr {
     width: 648px;
+    margin-bottom: 4px;
 }
 
 .bot-action {
@@ -749,7 +751,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 5px;
     color: black;
     width: 203px;
     height: 44px;
